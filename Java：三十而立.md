@@ -1,0 +1,46 @@
+# Java：三十而立
+
+## 序言
+
+随着互联网的热潮逐渐褪去，Java自1995年诞生到今(2025年)为止已经有30年了。
+
+## 目录
+
+- [Java：三十而立](#java三十而立)
+  - [序言](#序言)
+  - [目录](#目录)
+  - [Java如今的发布节奏(2025年)](#java如今的发布节奏2025年)
+
+## Java如今的发布节奏(2025年)
+
+简单来说，从Java 9开始的每隔几年发布一个大版本变成了如今每6个月发布一个大版本。
+
+> [Java发布节奏](https://open-elements.com/posts/2023/03/14/every-six-months-an-update-the-path-to-the-java-release-train/)。
+
+但是这些版本当中，存在长期支持版本(LTS)和非长期支持的版本(non-LTS),长期版本包括
+Java 8, Java 11, Java 17, Java 21, Java25(截至2025年)，其他均为非长期版本。长期版本的
+维护周期，这里我们以Oracle Java为例，通常是会以年为单位进行长期维护，但是非长期版本通常是6个月。
+
+> [Oracle Java](https://www.oracle.com/apac/java/technologies/java-se-support-roadmap.html)
+
+这里需要特别指出，Java 8是一个比较特殊的版本，他是是第一个长期支持的版本，同时由于使用过于广泛，导致维护周期非常长，Oracle官方对其额外的支持持续到2030年，另外他也是最后一个免费商业用户使用的版本,小版本号是java8u202。
+
+> - [oracle官方解释](https://blogs.oracle.com/java/oracle-java-se-releases-faq)
+> 
+> - [oracle的许可政策](https://oraclelicensingexperts.com/how-is-oracle-java-8-licensed/)
+
+另外，对于具体的维护和支持周期，不同的JDK发行厂商会有不同的政策，用户可以根据需要选择合适的JDK发行厂商，常见发行厂商包括Adoptium, Amazon Corretto, Azul Zulu, Oracle JDK，国内还有阿里巴巴的Dragonwell等。
+
+每个版本当中都会包含一些新特性，改进，以及一些预览特性，有一些是对底层的改进比如对JVM的垃圾回收器的改进，对于这一些与语法无关的特性，绝大部分的开发者不需要在意。但是一些对于语言本身比如新的语法特性，Java 8的lambda， Java 14的记录类型(Record), Java 16的模式匹配(pattern matching)等，Java 17的字符串文本块(text block)等，都是对开发者有直接影响的，合理运用会提高代码质量以及开发效率。
+
+一些其他趋势，Java17成为主流(截至2025年)，但是旧的版本仍然有大量的用户，比如Java8等。
+
+> - [2025年Java开发者调查](https://www.infoq.cn/article/ps1x5VJ7XiIuWzDzul5m)
+
+Java语言的排行榜，虽然Java仍然位居前列，但是处于持续下降的状态。
+
+> - [TIOBE 排行榜2025](https://www.tiobe.com/tiobe-index/)
+> - [PYPL 排行榜2025](https://pypl.github.io/PYPL.html)
+
+
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><img alt="知识共享许可协议" style="border-width: 0" src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png"></a><br>本作品采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">署名-非商业性使用-禁止演绎 4.0 国际</a> 进行许可。<a href="mailto:18363998103@163.com">联系我</a>
